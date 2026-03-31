@@ -43,11 +43,9 @@ export default function LoginPage({ onLogin }) {
   return (
     <div className="login-page">
       <div className="login-card animate-fadeUp">
-        <div className="wordmark">Vaulr<span className="wordmark-dot">.</span></div>
-
         <p className="eyebrow">Welcome back</p>
         <h1 className="heading">Sign in to<br />your workspace</h1>
-        <p className="subheading">Access your dashboard in one click.</p>
+        <p className="subheading">Access your account</p>
 
         {error && <div className="error-box">{error}</div>}
 
