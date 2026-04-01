@@ -43,7 +43,7 @@ export default function LoginPage({ onLogin }) {
   return (
     <div className="login-page">
       <div className="login-card animate-fadeUp">
-        <p className="eyebrow">Welcome back</p>
+        <p className="eyebrow">Welcome!</p>
         <h1 className="heading">Sign in to<br />your workspace</h1>
         <p className="subheading">Access your account</p>
 
